@@ -61,7 +61,7 @@ You will be scored on:
 - Visual walkthrough of your site and responsiveness
 - Presentation skills (confidence, clarity, visual aids)
 
-📎 [View the Presentation Template Here](https://github.com/CodeSpace-Academy/SDFPP-2025/blob/main/project%20guide/presentation_template.md)
+📎 [View the Presentation Template Here](https://www.loom.com/share/34328a75464c472cb4c102e182317719)
 
 ---
 
@@ -119,3 +119,5 @@ Take your time. Follow the walkthrough. Ask for help if you need it.
 You're not just building a resume site — you're building confidence, skills, and a real piece of your future portfolio.
 
 **You’ve got this. Let’s go! 🚀**
+
+https://www.loom.com/share/6d3dad04a0c845c68e3ea59de7ccc455
