@@ -227,12 +227,12 @@ body {
   font-size: 20px;
   line-height: 1.5;
   margin: 0.5rem 0;
-  color: #374151;
+  color: #ffffff;
 
   background-color: #e5e7eb;
   /* light gray badge */
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
+  padding: 28px;
+  border-radius: 30px;
 }
 
 /* Wrapper for proficiency + skills side by side */
@@ -684,4 +684,8 @@ body {
   /* accent color for links */
   text-decoration: none;
   font-weight: 500;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
 }
