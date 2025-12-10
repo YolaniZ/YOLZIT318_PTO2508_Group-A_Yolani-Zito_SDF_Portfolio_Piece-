@@ -75,7 +75,6 @@ body {
 }
 
 /* Proficiency + skills side by side */
-/* Proficiency + skills side by side */
 .proficiency-skills {
   display: flex;
   /* place them side by side */
@@ -641,23 +640,22 @@ body {
 }
 
 /* First experience card only */
-.experience-card:first-card {
+.experience-card:first-child {
   background-color: #4a8b70;
   color: #fff;
   /* ensure text is readable on dark background */
 }
 
-@media (max-width: 480px) {
-}
-
 /*FOOTER SECTION*/
-
 .footer {
   background-color: #d76239;
+  /* light background */
   padding: 2rem;
   text-align: center;
   border-top: 2px solid #4a8b70;
+  /* subtle accent line */
 }
+
 .footer-title {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -667,6 +665,7 @@ body {
   letter-spacing: 0;
   margin-bottom: 1rem;
   color: #111827;
+  /* dark text */
 }
 
 .footer-contact p {
@@ -689,3 +688,5 @@ body {
 .footer-contact a:hover {
   text-decoration: underline;
 }
+
+

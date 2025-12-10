@@ -75,7 +75,6 @@ body {
 }
 
 /* Proficiency + skills side by side */
-/* Proficiency + skills side by side */
 .proficiency-skills {
   display: flex;
   /* place them side by side */
@@ -641,31 +640,51 @@ body {
 }
 
 /* First experience card only */
-.experience-card:first-card {
+.experience-card:first-child {
   background-color: #4a8b70;
   color: #fff;
   /* ensure text is readable on dark background */
 }
 
-@media (max-width: 480px) {
-}
-
 /*FOOTER SECTION*/
-.contact-footer {
+.footer {
   background-color: #d76239;
+  /* light background */
   padding: 2rem;
   text-align: center;
   border-top: 2px solid #4a8b70;
+  /* subtle accent line */
 }
 
-.contact-footer h2 {
-  footer {
-    color: white;
-    width: 80%;
-    padding: 20px;
-    background-color: #d76239;
-    border-radius: 29px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 20px auto;
-  }
+.footer-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24.2px;
+  line-height: 150%;
+  letter-spacing: 0;
+  margin-bottom: 1rem;
+  color: #111827;
+  /* dark text */
+}
+
+.footer-contact p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  margin: 0;
+  color: #374151;
+  /* medium gray */
+}
+
+.footer-contact a {
+  color: #dddddd;
+  /* accent color for links */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
 }
