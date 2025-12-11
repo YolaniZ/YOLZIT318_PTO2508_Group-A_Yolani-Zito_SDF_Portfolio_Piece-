@@ -688,5 +688,14 @@ body {
 .footer-contact a:hover {
   text-decoration: underline;
 }
+/* Responsive Design */
+@media (max-width: 768px) {
+  .proficiency-skills,
+  .education-tools-wrapper {
+    flex-direction: column;
+  }
 
-
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+}
