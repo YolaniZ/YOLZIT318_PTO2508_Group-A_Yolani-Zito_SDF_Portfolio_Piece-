@@ -227,100 +227,102 @@ body {
 
 /* ===== PROJECTS SECTION ===== */
 
+/* Projects Section */
 .projects-section {
   background-color: #ffffff;
-
-  padding: 20px;
-
-  margin-bottom: 10px;
-
-  border-radius: 15px;
-
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
 }
 
 .projects-title {
-  font-size: 1.5rem;
-
-  font-weight: 600;
-
-  color: #2d5a3d;
-
-  margin-bottom: 20px;
-
-  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 33.88px;
+  line-height: 150%;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #111827;
 }
 
+/* Grid layout */
 .projects-container {
   display: grid;
-
   grid-template-columns: repeat(4, 1fr);
-
-  gap: 15px;
+  /* 4 columns on desktop */
+  gap: 2rem;
+  margin: 0 auto;
+  align-items: stretch;
 }
 
 .project-card {
   position: relative;
-
-  background-color: #f8f9fa;
-
-  padding: 15px;
-
-  border-radius: 10px;
-
-  border: 1px solid #e9ecef;
-
-  min-height: 200px;
+  background-color: #f9fafb;
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-.project-card:first-child {
-  background-color: #4a8b70;
-
-  color: #fff;
-}
-
+/* heart badge in top-right */
 .heart-badge {
   position: absolute;
-
   top: 8px;
-
+  /* distance from top */
   right: 8px;
+  /* distance from right */
+  font-size: 16px;
+  background: #d76239;
+  transform: rotate(-45deg);
+}
 
-  font-size: 1rem;
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Other three columns (2nd, 3rd, 4th cards in each row) */
+.projects-container .project-card:nth-child(4n + 2),
+.projects-container .project-card:nth-child(4n + 3),
+.projects-container .project-card:nth-child(4n + 4) {
+  background-color: #e7f0ec;
 }
 
 .project-year {
-  font-size: 0.8rem;
-
-  font-weight: 600;
-
-  background: rgba(255, 255, 255, 0.2);
-
-  padding: 2px 6px;
-
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #000000;
+  width: 40px;
+  height: 24px;
   border-radius: 4px;
-
-  display: inline-block;
-
-  margin-bottom: 8px;
+  text-align: center;
+  line-height: 24px;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-style: poppins;
 }
 
 .project-name {
-  font-size: 1rem;
-
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
-
-  margin-bottom: 8px;
+  font-size: 22px;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
 }
 
 .project-brief,
 .project-tech,
 .project-resp {
-  font-size: 0.75rem;
-
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
   line-height: 1.4;
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
 
-  margin-bottom: 5px;
+/* First project card only */
+.project-card:first-child {
+  background-color: #4a8b70;
+  color: #fff;
 }
 
 /* ===== EDUCATION & TOOLS SECTION ===== */
